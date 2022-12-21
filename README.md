@@ -2,7 +2,7 @@
 ## Using web services to a remote API construct a chord diagram with network data structures of protein relationships.
 
 
-In **Anaconda**, you don't have to execute all the python, in this case, code in the file—you can pick-and-choose which lines in the code file to execute.  In this code, there are various **"protein_list" python lists** composed of different human proteins.   Actually, I wrote this code a while back and maybe some of the lists have non-human proteins.  Most should be human.   
+In **Anaconda**, you don't have to execute all the python, in this case, code in the file—you can pick-and-choose which lines in the code file to execute.  In this code, there are various **"protein_list" python lists** composed of different human proteins.   Actually, I wrote this code a while back and maybe some of the lists have non-human proteins.  Most should be human.   The different **SQL** strings you see commented in the file is SQL used to get the approved symbols of the proteins in the different lists.  I have my own **database containing about 20,000 human genes and proteins** and multiple database tables from which to query.
 
 The list is sent to an **API** at the **Protein-Protein Interaction Networks** Database "String"; and, relationships between proteins are returned as a **networked data structure**.
 
